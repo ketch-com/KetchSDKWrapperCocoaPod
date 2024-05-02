@@ -1,5 +1,5 @@
 import XCTest
-import KetchSDKWrapperCocoaPod
+//import KetchSDKWrapperCocoaPod
 
 class Tests: XCTestCase {
     
