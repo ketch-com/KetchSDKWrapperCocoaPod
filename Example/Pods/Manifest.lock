@@ -1,0 +1,16 @@
+PODS:
+  - KetchSDKWrapperCocoaPod (0.1.0)
+
+DEPENDENCIES:
+  - KetchSDKWrapperCocoaPod (from `../`)
+
+EXTERNAL SOURCES:
+  KetchSDKWrapperCocoaPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KetchSDKWrapperCocoaPod: 583735e3b0864c30cae474c55b1de2567eb5bbf9
+
+PODFILE CHECKSUM: 81db35d20210d33f83fffd0a4e282865f9dea47f
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module KetchSDKWrapperCocoaPod {
+  umbrella header "KetchSDKWrapperCocoaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
