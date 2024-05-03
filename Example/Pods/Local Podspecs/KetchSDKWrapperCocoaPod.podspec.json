@@ -1,9 +1,10 @@
 {
   "name": "KetchSDKWrapperCocoaPod",
-  "version": "0.1.0",
-  "summary": "A short description of KetchSDKWrapperCocoaPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Justin Boileau/KetchSDKWrapperCocoaPod",
+  "version": "0.2.0",
+  "summary": "An example of wrapping the Ketch iOS SDK within a CocoaPods package",
+  "swift_versions": "4.0",
+  "description": "An example of wrapping the Ketch iOS SDK within a CocoaPods package. Also includes an example application to demonstrate functionality.",
+  "homepage": "https://github.com/ketch-com/KetchSDKWrapperCocoaPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,17 @@
     "Justin Boileau": "justin.boileau@ketch.com"
   },
   "source": {
-    "git": "https://github.com/Justin Boileau/KetchSDKWrapperCocoaPod.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ketch-com/KetchSDKWrapperCocoaPod.git",
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "15.0"
   },
-  "source_files": "KetchSDKWrapperCocoaPod/Classes/**/*"
+  "source_files": "KetchSDKWrapperCocoaPod/Classes/**/*",
+  "dependencies": {
+    "KetchSDK": [
+      "4.0.3"
+    ]
+  },
+  "swift_version": "4.0"
 }

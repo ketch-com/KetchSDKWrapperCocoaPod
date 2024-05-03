@@ -1,5 +1,6 @@
 import XCTest
-//import KetchSDKWrapperCocoaPod
+
+import KetchSDK
 
 class Tests: XCTestCase {
     
@@ -24,5 +25,4 @@ class Tests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

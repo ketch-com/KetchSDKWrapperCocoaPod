@@ -1,16 +1,23 @@
 PODS:
-  - KetchSDKWrapperCocoaPod (0.1.0)
+  - KetchSDK (4.0.3)
+  - KetchSDKWrapperCocoaPod (0.2.0):
+    - KetchSDK (= 4.0.3)
 
 DEPENDENCIES:
   - KetchSDKWrapperCocoaPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - KetchSDK
 
 EXTERNAL SOURCES:
   KetchSDKWrapperCocoaPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KetchSDKWrapperCocoaPod: 583735e3b0864c30cae474c55b1de2567eb5bbf9
+  KetchSDK: 8aafe383bab66b06e6628bdb3aafe2ee5cae68d3
+  KetchSDKWrapperCocoaPod: 2d3839c5bad108648b9b9da16da217b1a45d25a0
 
-PODFILE CHECKSUM: 81db35d20210d33f83fffd0a4e282865f9dea47f
+PODFILE CHECKSUM: a1dca9b7f9120075041847364f96ed231fe13603
 
 COCOAPODS: 1.15.2

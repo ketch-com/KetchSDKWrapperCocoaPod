@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		307DB9751D2742556694F089 /* Pods_KetchSDKWrapperCocoaPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0391CDA50FA1AAFCD60DCD22 /* Pods_KetchSDKWrapperCocoaPod_Example.framework */; };
+		208013C37715A8D52CF6AC4F /* Pods_KetchSDKWrapperCocoaPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C34FFA26923ABFDE6AC6E4 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework */; };
+		30A4B10A391D2798CFFC94F8 /* Pods_KetchSDKWrapperCocoaPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CCC154B516CC3B905D2502 /* Pods_KetchSDKWrapperCocoaPod_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		624422367E53F6EA3CD79521 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1994932AC6A62C8DAFCFA4 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework */; };
+		D0F926AB2BE4774F00D11924 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F926AA2BE4774F00D11924 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +27,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0391CDA50FA1AAFCD60DCD22 /* Pods_KetchSDKWrapperCocoaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KetchSDKWrapperCocoaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E8B455D8A4CAC922C3FD7D6 /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Tests/Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KetchSDKWrapperCocoaPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KetchSDKWrapperCocoaPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* KetchSDKWrapperCocoaPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KetchSDKWrapperCocoaPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B1994932AC6A62C8DAFCFA4 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KetchSDKWrapperCocoaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		856B874371DB4D29E9CC75C3 /* Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		90610694A5D1DCD2C7FAF351 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Tests/Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D4018B2A1F16D1385D20DF7 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Tests/Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		917FB1D9A033E640D9B46EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		91C34FFA26923ABFDE6AC6E4 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KetchSDKWrapperCocoaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960F40C2EC93C314BE297ABB /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Tests/Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BEBDAEBC1856E26B9576A8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9F084891140D0CD75C95F91D /* Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AB8E731E28B69AB4511552A4 /* Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F926AA2BE4774F00D11924 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0F926AF2BE482FD00D11924 /* ketch-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ketch-ios"; path = "../../ketch-ios"; sourceTree = "<group>"; };
+		D4CCC154B516CC3B905D2502 /* Pods_KetchSDKWrapperCocoaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KetchSDKWrapperCocoaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF80C8274B0F99C616590F3 /* KetchSDKWrapperCocoaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KetchSDKWrapperCocoaPod.podspec; path = ../KetchSDKWrapperCocoaPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E3757723ECC2155B23BCC2B6 /* Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307DB9751D2742556694F089 /* Pods_KetchSDKWrapperCocoaPod_Example.framework in Frameworks */,
+				30A4B10A391D2798CFFC94F8 /* Pods_KetchSDKWrapperCocoaPod_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				624422367E53F6EA3CD79521 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework in Frameworks */,
+				208013C37715A8D52CF6AC4F /* Pods_KetchSDKWrapperCocoaPod_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +71,9 @@
 		2B8A965C56AAD2FD170D104E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0391CDA50FA1AAFCD60DCD22 /* Pods_KetchSDKWrapperCocoaPod_Example.framework */,
-				7B1994932AC6A62C8DAFCFA4 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework */,
+				D0F926AF2BE482FD00D11924 /* ketch-ios */,
+				D4CCC154B516CC3B905D2502 /* Pods_KetchSDKWrapperCocoaPod_Example.framework */,
+				91C34FFA26923ABFDE6AC6E4 /* Pods_KetchSDKWrapperCocoaPod_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,11 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				D0F926AA2BE4774F00D11924 /* ContentView.swift */,
 			);
 			name = "Example for KetchSDKWrapperCocoaPod";
 			path = KetchSDKWrapperCocoaPod;
@@ -151,10 +150,10 @@
 		FA2667AD4BEEF5D99B4187CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3757723ECC2155B23BCC2B6 /* Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig */,
-				856B874371DB4D29E9CC75C3 /* Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig */,
-				2E8B455D8A4CAC922C3FD7D6 /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */,
-				90610694A5D1DCD2C7FAF351 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */,
+				AB8E731E28B69AB4511552A4 /* Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig */,
+				9F084891140D0CD75C95F91D /* Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig */,
+				960F40C2EC93C314BE297ABB /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */,
+				6D4018B2A1F16D1385D20DF7 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,11 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KetchSDKWrapperCocoaPod_Example" */;
 			buildPhases = (
-				50D9B01FAD298DB40D89BEFA /* [CP] Check Pods Manifest.lock */,
+				F211AFD99C84A4F320399666 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				A91F10DEE4ABD5AE96690962 /* [CP] Embed Pods Frameworks */,
+				5383F2D960122B2274B0FCD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KetchSDKWrapperCocoaPod_Tests" */;
 			buildPhases = (
-				E7EE966791F461F3ED94B7B3 /* [CP] Check Pods Manifest.lock */,
+				22D660A584EFA6D82119F253 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -246,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -262,47 +260,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50D9B01FAD298DB40D89BEFA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KetchSDKWrapperCocoaPod_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A91F10DEE4ABD5AE96690962 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KetchSDKWrapperCocoaPod/KetchSDKWrapperCocoaPod.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KetchSDKWrapperCocoaPod.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E7EE966791F461F3ED94B7B3 /* [CP] Check Pods Manifest.lock */ = {
+		22D660A584EFA6D82119F253 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,6 +282,48 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5383F2D960122B2274B0FCD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KetchSDK/KetchSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/KetchSDKWrapperCocoaPod/KetchSDKWrapperCocoaPod.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KetchSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KetchSDKWrapperCocoaPod.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KetchSDKWrapperCocoaPod_Example/Pods-KetchSDKWrapperCocoaPod_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F211AFD99C84A4F320399666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KetchSDKWrapperCocoaPod_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -331,8 +331,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D0F926AB2BE4774F00D11924 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +355,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -419,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -475,11 +467,11 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3757723ECC2155B23BCC2B6 /* Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig */;
+			baseConfigurationReference = AB8E731E28B69AB4511552A4 /* Pods-KetchSDKWrapperCocoaPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KetchSDKWrapperCocoaPod/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -491,11 +483,11 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856B874371DB4D29E9CC75C3 /* Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig */;
+			baseConfigurationReference = 9F084891140D0CD75C95F91D /* Pods-KetchSDKWrapperCocoaPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KetchSDKWrapperCocoaPod/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,7 +499,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E8B455D8A4CAC922C3FD7D6 /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */;
+			baseConfigurationReference = 960F40C2EC93C314BE297ABB /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -529,7 +521,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90610694A5D1DCD2C7FAF351 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */;
+			baseConfigurationReference = 6D4018B2A1F16D1385D20DF7 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
