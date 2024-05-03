@@ -21,7 +21,7 @@
 		37EF50CE7ECA3F35BDEDDBB5DF199E9F /* RandomAccessCollection+IdentifiableIndices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F84C8BB623693E762ECE61DFC168A /* RandomAccessCollection+IdentifiableIndices.swift */; };
 		4AC1C86AC011B46B772BE3AAD19CC119 /* Pods-KetchSDKWrapperCocoaPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE37533C22DB63031E170C76C063F32 /* Pods-KetchSDKWrapperCocoaPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BDCBB867C3F6ABC181AF5EB084C94DD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CB2766B8BF5A79EB74E46829012DA7 /* Configuration.swift */; };
-		4DACCF61F5FDEFEFEA328C8E477F706A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84457B2583B755201F043EE0ABC31C /* ReplaceMe.swift */; };
+		4DACCF61F5FDEFEFEA328C8E477F706A /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84457B2583B755201F043EE0ABC31C /* Example.swift */; };
 		5D305990B126D3E5A141CB4B02650833 /* KetchApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E55C051D5624FF632CFBA57A5B445 /* KetchApiRequest.swift */; };
 		62776B443A8F71A688C97B420EB12836 /* WebConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0AD8176D5E810387C250984AB4CE00 /* WebConfig.swift */; };
 		6C3266D31E673D7D4ECD862A38C5BA29 /* KetchLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8929EEBDCF58133FEACC8901DED97F /* KetchLogger.swift */; };
@@ -94,9 +94,9 @@
 		32A7BA66F035C866D1F2E677501436DD /* Pods-KetchSDKWrapperCocoaPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KetchSDKWrapperCocoaPod_Tests.modulemap"; sourceTree = "<group>"; };
 		3830C4FE4DE4C7F92C0BF78797A74C6C /* Pods-KetchSDKWrapperCocoaPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KetchSDKWrapperCocoaPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C19DB7FD48E46A47121EF10D98DDC1A /* KetchSDKWrapperCocoaPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KetchSDKWrapperCocoaPod-umbrella.h"; sourceTree = "<group>"; };
-		3E26D725D9A22103BE2E9E7EA0331429 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3E26D725D9A22103BE2E9E7EA0331429 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		48E42B1BB8D2280C643E2B1708B81D88 /* KetchSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KetchSDK.debug.xcconfig; sourceTree = "<group>"; };
-		4A84457B2583B755201F043EE0ABC31C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KetchSDKWrapperCocoaPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4A84457B2583B755201F043EE0ABC31C /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = KetchSDKWrapperCocoaPod/Classes/Example.swift; sourceTree = "<group>"; };
 		4E170225BD2958A559E65A18F6D76DEB /* KetchSDKWrapperCocoaPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KetchSDKWrapperCocoaPod-dummy.m"; sourceTree = "<group>"; };
 		5109320AD16EA92C98F383DF5033C682 /* String+Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Validation.swift"; path = "Sources/KetchSDK/UI/Extensions/String+Validation.swift"; sourceTree = "<group>"; };
 		635ED40DCFE05E509CB921CB59559677 /* View+ResponsiveSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+ResponsiveSheet.swift"; path = "Sources/KetchSDK/UI/Extensions/View+ResponsiveSheet.swift"; sourceTree = "<group>"; };
@@ -115,20 +115,20 @@
 		8FCB0D720763006227D2238FD0CB52A1 /* PresentationItem+ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationItem+ViewController.swift"; path = "Sources/KetchSDK/UI/PresentationItem/PresentationItem+ViewController.swift"; sourceTree = "<group>"; };
 		95889D3F4AFD499CB75C863F18051BA1 /* ApiRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiRequest.swift; path = Sources/KetchSDK/Core/ApiRequest.swift; sourceTree = "<group>"; };
 		9A314C4C3A3574049FFCE1258699FF0A /* Pods-KetchSDKWrapperCocoaPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KetchSDKWrapperCocoaPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBD3D52C579D25D14E7FB240EEA19CC /* Pods-KetchSDKWrapperCocoaPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KetchSDKWrapperCocoaPod_Example"; path = Pods_KetchSDKWrapperCocoaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6924809618915B81E2F55051EBAC1A5 /* KetchSDKWrapperCocoaPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KetchSDKWrapperCocoaPod.modulemap; sourceTree = "<group>"; };
 		AD6DC137DFCD99FDCD512D929345E3B1 /* Ketch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ketch.swift; path = Sources/KetchSDK/Core/Ketch.swift; sourceTree = "<group>"; };
 		AE8929EEBDCF58133FEACC8901DED97F /* KetchLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KetchLogger.swift; path = Sources/KetchSDK/Core/KetchLogger.swift; sourceTree = "<group>"; };
 		B2A0F9163D0B3E98AB3589D4E3C37C03 /* KetchSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KetchSDK.modulemap; sourceTree = "<group>"; };
 		BA7912F1413A29287B814E88EA8BE0A0 /* Pods-KetchSDKWrapperCocoaPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KetchSDKWrapperCocoaPod_Example.modulemap"; sourceTree = "<group>"; };
-		BBEAEE18AF054311F98FA3F21CB43984 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = Sources/KetchSDK/index.html; sourceTree = "<group>"; };
+		BBEAEE18AF054311F98FA3F21CB43984 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = Sources/KetchSDK/index.html; sourceTree = "<group>"; };
 		C6B8EC494BD7F264F9A7C83ACA3BE044 /* KetchUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KetchUI.swift; path = Sources/KetchSDK/UI/KetchUI.swift; sourceTree = "<group>"; };
 		C6E62D062CF0AAD47D1D8982EDB37D5D /* KetchSDKWrapperCocoaPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KetchSDKWrapperCocoaPod-Info.plist"; sourceTree = "<group>"; };
 		CC0AD8176D5E810387C250984AB4CE00 /* WebConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebConfig.swift; path = Sources/KetchSDK/UI/PresentationItem/WebConfig.swift; sourceTree = "<group>"; };
 		CF3F84C8BB623693E762ECE61DFC168A /* RandomAccessCollection+IdentifiableIndices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RandomAccessCollection+IdentifiableIndices.swift"; path = "Sources/KetchSDK/UI/Extensions/RandomAccessCollection+IdentifiableIndices.swift"; sourceTree = "<group>"; };
 		D02AD840778AFB7E888EB0D10A7A206F /* Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KetchSDKWrapperCocoaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1F6A5908400128258487BA0C28C3948 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D1F6A5908400128258487BA0C28C3948 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5CB2766B8BF5A79EB74E46829012DA7 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/KetchSDK/Core/Entities/Configuration.swift; sourceTree = "<group>"; };
 		D60114E53BA86EC076381267D1910761 /* Pods-KetchSDKWrapperCocoaPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KetchSDKWrapperCocoaPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9E7AC6A8E3A4618180BD90BA98925DE /* Consent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Consent.swift; path = Sources/KetchSDK/Core/Entities/Consent.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		F1D3B556DDEAE4DD38FDBCEDB8CA7FED /* KetchSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KetchSDK.release.xcconfig; sourceTree = "<group>"; };
 		F462DF897967B93CF8E44CB2A57BF684 /* Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KetchSDKWrapperCocoaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F530DAE3DA146F3E7E2400C316EAE191 /* KetchSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KetchSDK-prefix.pch"; sourceTree = "<group>"; };
-		FC860E99A824A0B0D0F69BB732B9F8F3 /* KetchSDKWrapperCocoaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KetchSDKWrapperCocoaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC860E99A824A0B0D0F69BB732B9F8F3 /* KetchSDKWrapperCocoaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KetchSDKWrapperCocoaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,7 +277,6 @@
 				257689BDD1A36756F01FB9A5F7751496 /* Resources */,
 				47CD86026C634703969A04D8DD195962 /* Support Files */,
 			);
-			name = KetchSDK;
 			path = KetchSDK;
 			sourceTree = "<group>";
 		};
@@ -315,7 +314,7 @@
 		AF21716095B5BA7BB2DF072BDEA4F177 /* KetchSDKWrapperCocoaPod */ = {
 			isa = PBXGroup;
 			children = (
-				4A84457B2583B755201F043EE0ABC31C /* ReplaceMe.swift */,
+				4A84457B2583B755201F043EE0ABC31C /* Example.swift */,
 				18C8E412BA2C257B7B105F945300126A /* Pod */,
 				5B750AEAF308D06E7870AABEC0F82983 /* Support Files */,
 			);
@@ -601,7 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				317E31917EBBAC265D7CBB3006A6CBF9 /* KetchSDKWrapperCocoaPod-dummy.m in Sources */,
-				4DACCF61F5FDEFEFEA328C8E477F706A /* ReplaceMe.swift in Sources */,
+				4DACCF61F5FDEFEFEA328C8E477F706A /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,8 +824,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
