@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KetchSDKWrapperCocoaPod'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'An example of wrapping the Ketch iOS SDK within a CocoaPods package'
   s.swift_versions   = '4.0'
 
