@@ -1,43 +1,22 @@
-#
-# Be sure to run `pod lib lint KetchSDKWrapperCocoaPod.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'KetchSDKWrapperCocoaPod'
   s.version          = '0.2.0'
   s.summary          = 'An example of wrapping the Ketch iOS SDK within a CocoaPods package'
   s.swift_versions   = '4.0'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
   An example of wrapping the Ketch iOS SDK within a CocoaPods package. Also includes an example application to demonstrate functionality.
                        DESC
 
   s.homepage         = 'https://github.com/ketch-com/KetchSDKWrapperCocoaPod'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Justin Boileau' => 'justin.boileau@ketch.com' }
   s.source           = { :git => 'https://github.com/ketch-com/KetchSDKWrapperCocoaPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
 
   s.source_files = 'KetchSDKWrapperCocoaPod/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KetchSDKWrapperCocoaPod' => ['KetchSDKWrapperCocoaPod/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # Add the Ketch iOS SDK as a dependency
   s.dependency 'KetchSDK', '4.0.3'
 end
